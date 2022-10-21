@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #817b3f;
+    position: fixed;
+}
+.logo
+{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+    
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Pacifico';
+    color: #fff;
+    letter-spacing: 4px;
+}
+nav{
+    
+    text-align: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #fff;
+    padding: 36px 10px;
+    margin: 0 1px;
+    font-weight: 500px;
+}
+nav a:hover{
+    background: #fff;
+    color: #130f40;
+    
+}
+.banner-area{
+    background-image: url(images/image\ 1.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #3c4188;
+    opacity: .4;
+    z-index: -1;
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: black;
+}
+.content-area{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #fff;
+    top: 750px;
+}
+.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+.content-area p{
+    padding: 2% 0;
+    line-height: 35px;
+    text-align: justify;
+}
+body{
+    
+    text-align:center;
+}
+
+    
+    
+    
+
