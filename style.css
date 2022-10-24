@@ -74,7 +74,7 @@ nav a{
     color: rgb(255, 255, 255);
     padding: 36px 10px;
     margin: 0 1px;
-    font-weight: 500px;
+    font-weight: 100;
     font-family: nos;
 }
 nav a:hover{
@@ -85,7 +85,7 @@ nav a:hover{
 .banner-area{
     background-image: url(images/SunNet_Banner.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     top: 100px;
     height: 70vh;
     width: 100%;
